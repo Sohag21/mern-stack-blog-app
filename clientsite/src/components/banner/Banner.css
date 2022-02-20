@@ -1,0 +1,29 @@
+.homeBanner{
+    margin-top: 60px;
+}
+.homeBannerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #444;
+}
+.homeBannerTitleSm{
+    font-family: 'Lora', serif !important;
+    font-size: 20px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 12%;
+}
+.homeBannerTitleLg{
+    font-family: 'Lora', serif !important;
+    font-size: 100px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 15%;
+}
+.homeBannerImages{
+    width: 100%;
+    height: 500px;
+    margin-top: 80px;
+    object-fit: cover;
+}

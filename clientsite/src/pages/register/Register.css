@@ -1,0 +1,54 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background:  linear-gradient(
+        rgba(255, 255, 255, .5), 
+        rgba(255, 255, 255, .5)),
+        url("https://pbs.twimg.com/media/DYTIZRHUMAETg9J?format=jpg&name=900x900");
+    background-size: cover;
+}
+.registerTitle{
+    font-size: 30px;
+    font-family: 'lora';
+}
+.registerForm{
+    width: 260px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm >label{
+    margin: 10px 0px;
+}
+.registerForm >input{
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 8px 0px;
+}
+.registerButton:hover{
+    background-color: rgb(3, 153, 153);
+    transition: .6s;
+}
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+}

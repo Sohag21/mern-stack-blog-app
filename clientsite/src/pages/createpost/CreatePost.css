@@ -1,0 +1,56 @@
+.createPost{
+    padding-top: 40px;
+}
+.createPostCoverImg{
+    margin-left: 150px;
+    width: 75vw;
+    height: 250px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.createPostForm{
+    position: relative;
+}
+.createPostFormGrp{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+.createPostFormImgIcon{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(121, 117, 117);
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.createPostFormInputText{
+    font-size: 20px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+    background-color: #fafafc;
+}
+.createPostFormInputText:focus{
+    outline: none;
+}
+.createPostFormTextarea{
+    font-size: 15px;
+    width: 72.5vw;
+    margin-top: 5px;
+}
+.createPostFormPost{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: #fff;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
